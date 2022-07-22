@@ -3,17 +3,19 @@ package org.lld.threadpool;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-public class WorkerThread extends Thread{
+public class WorkerThreadRunnable implements Runnable{
 
-    BlockingQueue<Runnable> taskQueue;
+    private Thread thread;
+    private BlockingQueue<Runnable> taskQueue;
     private AtomicBoolean isThreadShutDownInitiated;
-    public WorkerThread(BlockingQueue<Runnable> taskQueue){
+    public WorkerThreadRunnable(BlockingQueue<Runnable> taskQueue){
         this.taskQueue = taskQueue;
         isThreadShutDownInitiated = new AtomicBoolean(false);
     }
 
     public void run() {
 
+        this.thread = Thread.currentThread();
         while(!isShutDownInitiated()){
             try{
                 //take() – waits for a head element of a queue and removes it. If the queue is empty,
@@ -34,7 +36,7 @@ public class WorkerThread extends Thread{
     public synchronized void doStop(){
         isThreadShutDownInitiated  = new AtomicBoolean(true);
         //break pool thread out of dequeue() call.
-        this.interrupt();
+        this.thread.interrupt();
     }
 
     public synchronized boolean isShutDownInitiated(){
