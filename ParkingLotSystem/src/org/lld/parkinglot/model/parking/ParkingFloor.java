@@ -2,6 +2,7 @@ package org.lld.parkinglot.model.parking;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.lld.parkinglot.model.vehicle.Vehicle;
 import org.lld.parkinglot.model.vehicle.VehicleType;
 
 import java.util.Deque;
@@ -64,7 +65,6 @@ public class ParkingFloor {
     }
 
     public synchronized ParkingSpot getParkingSpot(VehicleType vehicleType){
-
         //No space for vehicleType in this Floor
         if(!canPark(vehicleType))
             return null;

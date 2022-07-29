@@ -38,9 +38,10 @@ public class Admin extends Account{
 
         if (spot.isPresent())
             return;
-
+        System.out.println("Adding Cpot "+ parkingSpot.getParkingSpotId());
         floor.get().getParkingSpots().get(parkingSpot.getParkingSpotType())
                 .addLast(parkingSpot);
+        System.out.println("Spot Size "+ floor.get().getParkingSpots().get(parkingSpot.getParkingSpotType()).size());
 
     }
 
