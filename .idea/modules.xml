@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LowLevelDesign.iml" filepath="$PROJECT_DIR$/LowLevelDesign.iml" />
       <module fileurl="file://$PROJECT_DIR$/ParkingLotSystem/ParkingLotSystem.iml" filepath="$PROJECT_DIR$/ParkingLotSystem/ParkingLotSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RateLimiterSystem/RateLimiterSystem.iml" filepath="$PROJECT_DIR$/RateLimiterSystem/RateLimiterSystem.iml" />
     </modules>
   </component>
 </project>
