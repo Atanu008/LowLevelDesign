@@ -1,7 +1,6 @@
 package test;
 
 import org.games.snakeladder.Player;
-import org.games.snakeladder.Snake;
 import org.games.snakeladder.SnakeAndLadderGame;
 
 import java.util.Scanner;
