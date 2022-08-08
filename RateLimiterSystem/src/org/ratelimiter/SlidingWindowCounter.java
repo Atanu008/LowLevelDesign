@@ -19,6 +19,7 @@ public class SlidingWindowCounter extends RateLimiter{
 
         long currentTime = System.currentTimeMillis();
         long currentWindow = currentTime / 1000; //window in second;
+        windows.putIfAbsent(currentWindow, new AtomicInteger(0)); // Create current window if not created
         long previousWindow = currentWindow - 1;
 
         AtomicInteger previousWindowCount= windows.get(previousWindow); // get previous window hit

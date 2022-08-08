@@ -7,8 +7,8 @@ public class TokenBucketFactory{
         // only through the static methods
     }
 
-    public static TokenBucketWithDaemonThread makeTokenBucketWithDaemonThread(int refillRate, int MAX_TOKEN){
-        TokenBucketWithDaemonThread tokenBucketWithDaemonThread = new TokenBucketWithDaemonThread(refillRate, MAX_TOKEN);
+    public static TokenBucketWithDaemonThread makeTokenBucketWithDaemonThread(int MAX_TOKEN, int refillRate){
+        TokenBucketWithDaemonThread tokenBucketWithDaemonThread = new TokenBucketWithDaemonThread(MAX_TOKEN, refillRate);
         tokenBucketWithDaemonThread.initialize();
         return tokenBucketWithDaemonThread;
     }
@@ -17,7 +17,7 @@ public class TokenBucketFactory{
         private int refillRate;
         private int possibleTokens;
         private final int ONE_SECOND = 1000;
-        TokenBucketWithDaemonThread(int refillRate, int MAX_TOKEN){
+        TokenBucketWithDaemonThread(int MAX_TOKEN, int refillRate){
             super(MAX_TOKEN);
             this.refillRate = refillRate;
             possibleTokens = 0;

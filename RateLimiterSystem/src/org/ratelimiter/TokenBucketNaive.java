@@ -5,7 +5,7 @@ public class TokenBucketNaive extends RateLimiter {
     private int possibleTokens;
     private long lastRequestTime;
 
-    protected TokenBucketNaive(int MAX_TOKEN) {
+    public TokenBucketNaive(int MAX_TOKEN) {
         super(MAX_TOKEN);
         this.possibleTokens = 0;
         this.lastRequestTime = System.currentTimeMillis();

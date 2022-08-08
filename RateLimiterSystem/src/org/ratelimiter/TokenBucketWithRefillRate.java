@@ -6,7 +6,7 @@ public class TokenBucketWithRefillRate extends RateLimiter{
     private int possibleTokens;
     private long lastRequestTime;
 
-    public TokenBucketWithRefillRate(int refillRate, int MAX_TOKEN){
+    public TokenBucketWithRefillRate(int MAX_TOKEN, int refillRate){
         super(MAX_TOKEN);
         this.refillRate = refillRate;
         possibleTokens = 0;
