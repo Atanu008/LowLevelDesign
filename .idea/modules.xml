@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Behavioral/Behavioral.iml" filepath="$PROJECT_DIR$/DesignPatterns/Behavioral/Behavioral.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" filepath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/LowLevelDesign.iml" filepath="$PROJECT_DIR$/LowLevelDesign.iml" />
       <module fileurl="file://$PROJECT_DIR$/ParkingLotSystem/ParkingLotSystem.iml" filepath="$PROJECT_DIR$/ParkingLotSystem/ParkingLotSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/RateLimiterSystem/RateLimiterSystem.iml" filepath="$PROJECT_DIR$/RateLimiterSystem/RateLimiterSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/SnakeAndLadderGame/SnakeAndLadderGame.iml" filepath="$PROJECT_DIR$/SnakeAndLadderGame/SnakeAndLadderGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Behavioral/Strategy/Strategy.iml" filepath="$PROJECT_DIR$/DesignPatterns/Behavioral/Strategy/Strategy.iml" />
     </modules>
   </component>
 </project>
