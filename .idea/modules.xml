@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Behavioral/Behavioral.iml" filepath="$PROJECT_DIR$/DesignPatterns/Behavioral/Behavioral.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Behavioral/ChainOfResponsibility/ChainOfResponsibility.iml" filepath="$PROJECT_DIR$/DesignPatterns/Behavioral/ChainOfResponsibility/ChainOfResponsibility.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" filepath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LoggingFramework/LoggingFramework.iml" filepath="$PROJECT_DIR$/LoggingFramework/LoggingFramework.iml" />
       <module fileurl="file://$PROJECT_DIR$/LowLevelDesign.iml" filepath="$PROJECT_DIR$/LowLevelDesign.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Behavioral/Observer/Observer.iml" filepath="$PROJECT_DIR$/DesignPatterns/Behavioral/Observer/Observer.iml" />
       <module fileurl="file://$PROJECT_DIR$/ParkingLotSystem/ParkingLotSystem.iml" filepath="$PROJECT_DIR$/ParkingLotSystem/ParkingLotSystem.iml" />
