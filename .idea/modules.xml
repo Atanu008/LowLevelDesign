@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/ParkingLotSystem/ParkingLotSystem.iml" filepath="$PROJECT_DIR$/ParkingLotSystem/ParkingLotSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/RateLimiterSystem/RateLimiterSystem.iml" filepath="$PROJECT_DIR$/RateLimiterSystem/RateLimiterSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/SnakeAndLadderGame/SnakeAndLadderGame.iml" filepath="$PROJECT_DIR$/SnakeAndLadderGame/SnakeAndLadderGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SplitWise/SplitWise.iml" filepath="$PROJECT_DIR$/SplitWise/SplitWise.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Behavioral/Strategy/Strategy.iml" filepath="$PROJECT_DIR$/DesignPatterns/Behavioral/Strategy/Strategy.iml" />
     </modules>
   </component>
