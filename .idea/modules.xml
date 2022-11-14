@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/RideSharingApp/RideSharingApp.iml" filepath="$PROJECT_DIR$/RideSharingApp/RideSharingApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/SnakeAndLadderGame/SnakeAndLadderGame.iml" filepath="$PROJECT_DIR$/SnakeAndLadderGame/SnakeAndLadderGame.iml" />
       <module fileurl="file://$PROJECT_DIR$/SplitWise/SplitWise.iml" filepath="$PROJECT_DIR$/SplitWise/SplitWise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StackOverFlow/StackOverFlow.iml" filepath="$PROJECT_DIR$/StackOverFlow/StackOverFlow.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Behavioral/Strategy/Strategy.iml" filepath="$PROJECT_DIR$/DesignPatterns/Behavioral/Strategy/Strategy.iml" />
     </modules>
   </component>
