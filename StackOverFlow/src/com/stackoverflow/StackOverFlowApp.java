@@ -5,7 +5,7 @@ import com.stackoverflow.model.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class test {
+public class StackOverFlowApp {
 
     public static void main(String[] args) {
 
