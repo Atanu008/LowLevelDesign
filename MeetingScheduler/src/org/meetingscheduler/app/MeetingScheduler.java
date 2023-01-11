@@ -23,7 +23,7 @@ public class MeetingScheduler {
         meetingRoomList = new ArrayList<>();
     }
 
-    public MeetingScheduler getMeetingScheduler(){
+    public static MeetingScheduler getInstance(){
         if(meetingScheduler == null){
             synchronized (MeetingScheduler.class){
                 if(meetingScheduler == null){
@@ -42,14 +42,19 @@ public class MeetingScheduler {
                 saveToHistory(meeting);
             }
         }
+        if(meeting == null){
+            System.out.println("All Meeting rooms are booked for interval : "+ interval.getStartTime() + " - "+ interval.getEndTime());
+        }
         return meeting;
     }
 
-    public Meeting bookParticularMeetingRoom(Host host, String subject, Interval interval, MeetingRoom meetingRoom){
+    public Meeting bookParticularMeetingRoom(MeetingRoom meetingRoom, Host host, String subject, Interval interval){
         Meeting meeting = null;
         if(meetingRoom.isAvailable(interval)){
             meeting = meetingRoom.scheduleMeeting(host, subject, interval);
             saveToHistory(meeting);
+        }else{
+            System.out.println(meetingRoom.getRoomName() +" is booked for interval : "+ interval.getStartTime() + " - "+ interval.getEndTime());
         }
         return meeting;
     }
@@ -69,11 +74,9 @@ public class MeetingScheduler {
         if(meeting != null && attendees.size() != 0){
             meeting.addAttendees(attendees);
             meeting.invite(attendees);
+        }else{
+            System.out.println("Unable to add attendees to meeting : Either Meeting Invalid or Invalid Attendes");
         }
-
-    }
-
-    private void invite(Meeting meeting, List<Attendee> attendees) {
 
     }
 }
