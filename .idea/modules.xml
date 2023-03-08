@@ -3,9 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Behavioral/Behavioral.iml" filepath="$PROJECT_DIR$/DesignPatterns/Behavioral/Behavioral.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BookMyShow/BookMyShow.iml" filepath="$PROJECT_DIR$/BookMyShow/BookMyShow.iml" />
       <module fileurl="file://$PROJECT_DIR$/BowlingAlley/BowlingAlley.iml" filepath="$PROJECT_DIR$/BowlingAlley/BowlingAlley.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Creational/Builder/Builder.iml" filepath="$PROJECT_DIR$/DesignPatterns/Creational/Builder/Builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cache/Cache.iml" filepath="$PROJECT_DIR$/Cache/Cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Behavioral/ChainOfResponsibility/ChainOfResponsibility.iml" filepath="$PROJECT_DIR$/DesignPatterns/Behavioral/ChainOfResponsibility/ChainOfResponsibility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Creational/Creational.iml" filepath="$PROJECT_DIR$/DesignPatterns/Creational/Creational.iml" />
       <module fileurl="file://$PROJECT_DIR$/CricInfo/CricInfo.iml" filepath="$PROJECT_DIR$/CricInfo/CricInfo.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" filepath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/LoggingFramework/LoggingFramework.iml" filepath="$PROJECT_DIR$/LoggingFramework/LoggingFramework.iml" />
