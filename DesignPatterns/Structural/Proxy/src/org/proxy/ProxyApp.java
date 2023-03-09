@@ -5,6 +5,9 @@ import org.proxy.internet.ProxyInternet;
 import org.proxy.video.ProxyVideoDownloader;
 import org.proxy.video.VideoDownloader;
 
+//Git Gub : https://github.com/geekific-official/geekific-youtube/blob/main/pattern-structural-proxy/src/main/java/com/youtube/geekific/MainApp.java
+//Video : https://www.youtube.com/watch?v=TS5i-uPXLs8&t=124s
+
 public class ProxyApp {
     public static void main(String[] args) {
         Internet internet = new ProxyInternet();
