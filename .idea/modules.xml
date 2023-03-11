@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Creational/AbstractFactory/AbstractFactory.iml" filepath="$PROJECT_DIR$/DesignPatterns/Creational/AbstractFactory/AbstractFactory.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Behavioral/Behavioral.iml" filepath="$PROJECT_DIR$/DesignPatterns/Behavioral/Behavioral.iml" />
       <module fileurl="file://$PROJECT_DIR$/BookMyShow/BookMyShow.iml" filepath="$PROJECT_DIR$/BookMyShow/BookMyShow.iml" />
       <module fileurl="file://$PROJECT_DIR$/BowlingAlley/BowlingAlley.iml" filepath="$PROJECT_DIR$/BowlingAlley/BowlingAlley.iml" />
