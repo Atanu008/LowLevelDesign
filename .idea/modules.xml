@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Behavioral/ChainOfResponsibility/ChainOfResponsibility.iml" filepath="$PROJECT_DIR$/DesignPatterns/Behavioral/ChainOfResponsibility/ChainOfResponsibility.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Creational/Creational.iml" filepath="$PROJECT_DIR$/DesignPatterns/Creational/Creational.iml" />
       <module fileurl="file://$PROJECT_DIR$/CricInfo/CricInfo.iml" filepath="$PROJECT_DIR$/CricInfo/CricInfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Structural/Decorator/Decorator.iml" filepath="$PROJECT_DIR$/DesignPatterns/Structural/Decorator/Decorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" filepath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Creational/Factory/Factory.iml" filepath="$PROJECT_DIR$/DesignPatterns/Creational/Factory/Factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Creational/FactoryMethod/FactoryMethod.iml" filepath="$PROJECT_DIR$/DesignPatterns/Creational/FactoryMethod/FactoryMethod.iml" />
