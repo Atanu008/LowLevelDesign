@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Creational/Builder/Builder.iml" filepath="$PROJECT_DIR$/DesignPatterns/Creational/Builder/Builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cache/Cache.iml" filepath="$PROJECT_DIR$/Cache/Cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Behavioral/ChainOfResponsibility/ChainOfResponsibility.iml" filepath="$PROJECT_DIR$/DesignPatterns/Behavioral/ChainOfResponsibility/ChainOfResponsibility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Behavioral/Command/Command.iml" filepath="$PROJECT_DIR$/DesignPatterns/Behavioral/Command/Command.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Creational/Creational.iml" filepath="$PROJECT_DIR$/DesignPatterns/Creational/Creational.iml" />
       <module fileurl="file://$PROJECT_DIR$/CricInfo/CricInfo.iml" filepath="$PROJECT_DIR$/CricInfo/CricInfo.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Structural/Decorator/Decorator.iml" filepath="$PROJECT_DIR$/DesignPatterns/Structural/Decorator/Decorator.iml" />
