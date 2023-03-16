@@ -1,0 +1,15 @@
+Dependency Inversion
+-----------------------
+The principle of dependency inversion refers to the decoupling of software modules.
+This way, instead of high-level modules depending on low-level modules, both will depend on abstractions.
+
+The Dependency Inversion Principle (DIP) states that high-level modules should not depend on low-level modules,
+but rather both should depend on abstractions. The abstractions should not depend on details. Instead,
+the details should depend on abstractions.
+
+In many cases, thinking about the interaction between modules as an abstract concept allows the linking of
+components to be reduced without the need for more coding patterns to be implemented. This allows for a functional
+scheme with reduced implementation and allows the system to be more flexible.
+
+//https://www.baeldung.com/solid-principles
+//https://www.youtube.com/watch?v=XI7zep97c-Y
