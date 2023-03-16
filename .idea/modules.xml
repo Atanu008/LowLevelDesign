@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" filepath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Creational/Factory/Factory.iml" filepath="$PROJECT_DIR$/DesignPatterns/Creational/Factory/Factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Creational/FactoryMethod/FactoryMethod.iml" filepath="$PROJECT_DIR$/DesignPatterns/Creational/FactoryMethod/FactoryMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatterns/SOLID/InterfaceSegregation/InterfaceSegregation.iml" filepath="$PROJECT_DIR$/DesignPatterns/SOLID/InterfaceSegregation/InterfaceSegregation.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/SOLID/LiskovSubstitutionPrinciple/LiskovSubstitutionPrinciple.iml" filepath="$PROJECT_DIR$/DesignPatterns/SOLID/LiskovSubstitutionPrinciple/LiskovSubstitutionPrinciple.iml" />
       <module fileurl="file://$PROJECT_DIR$/LoggingFramework/LoggingFramework.iml" filepath="$PROJECT_DIR$/LoggingFramework/LoggingFramework.iml" />
       <module fileurl="file://$PROJECT_DIR$/LowLevelDesign.iml" filepath="$PROJECT_DIR$/LowLevelDesign.iml" />

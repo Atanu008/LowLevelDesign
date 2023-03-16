@@ -1,0 +1,19 @@
+Interface Segregation
+------------------------
+
+The Interface Segregation Principle (ISP) is a design principle that does not recommend having methods that
+an interface would not use and require. Therefore, it goes against having fat interfaces in classes and prefers
+having small interfaces with a group of methods, each serving a particular purpose.
+
+larger interfaces should be split into smaller ones. By doing so, we can ensure that implementing classes
+only need to be concerned about the methods that are of interest to them.
+
+Segregation means keeping things separated, and the Interface Segregation Principle is about separating the interfaces.
+
+The principle states that many client-specific interfaces are better than one general-purpose interface.
+Clients should not be forced to implement a function they do no need.
+
+Video References :
+https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/
+https://www.baeldung.com/solid-principles
+https://www.youtube.com/watch?v=XI7zep97c-Y
