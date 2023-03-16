@@ -17,15 +17,19 @@
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" filepath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Creational/Factory/Factory.iml" filepath="$PROJECT_DIR$/DesignPatterns/Creational/Factory/Factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Creational/FactoryMethod/FactoryMethod.iml" filepath="$PROJECT_DIR$/DesignPatterns/Creational/FactoryMethod/FactoryMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatterns/SOLID/LiskovSubstitutionPrinciple/LiskovSubstitutionPrinciple.iml" filepath="$PROJECT_DIR$/DesignPatterns/SOLID/LiskovSubstitutionPrinciple/LiskovSubstitutionPrinciple.iml" />
       <module fileurl="file://$PROJECT_DIR$/LoggingFramework/LoggingFramework.iml" filepath="$PROJECT_DIR$/LoggingFramework/LoggingFramework.iml" />
       <module fileurl="file://$PROJECT_DIR$/LowLevelDesign.iml" filepath="$PROJECT_DIR$/LowLevelDesign.iml" />
       <module fileurl="file://$PROJECT_DIR$/MeetingScheduler/MeetingScheduler.iml" filepath="$PROJECT_DIR$/MeetingScheduler/MeetingScheduler.iml" />
       <module fileurl="file://$PROJECT_DIR$/MessageQueue/MessageQueue.iml" filepath="$PROJECT_DIR$/MessageQueue/MessageQueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Behavioral/Observer/Observer.iml" filepath="$PROJECT_DIR$/DesignPatterns/Behavioral/Observer/Observer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatterns/SOLID/OpenClose/OpenClose.iml" filepath="$PROJECT_DIR$/DesignPatterns/SOLID/OpenClose/OpenClose.iml" />
       <module fileurl="file://$PROJECT_DIR$/ParkingLotSystem/ParkingLotSystem.iml" filepath="$PROJECT_DIR$/ParkingLotSystem/ParkingLotSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Structural/Proxy/Proxy.iml" filepath="$PROJECT_DIR$/DesignPatterns/Structural/Proxy/Proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/RateLimiterSystem/RateLimiterSystem.iml" filepath="$PROJECT_DIR$/RateLimiterSystem/RateLimiterSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/RideSharingApp/RideSharingApp.iml" filepath="$PROJECT_DIR$/RideSharingApp/RideSharingApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatterns/SOLID/SOLID.iml" filepath="$PROJECT_DIR$/DesignPatterns/SOLID/SOLID.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatterns/SOLID/SingleResponsibility/SingleResponsibility.iml" filepath="$PROJECT_DIR$/DesignPatterns/SOLID/SingleResponsibility/SingleResponsibility.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Creational/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/DesignPatterns/Creational/Singleton/Singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/SnakeAndLadderGame/SnakeAndLadderGame.iml" filepath="$PROJECT_DIR$/SnakeAndLadderGame/SnakeAndLadderGame.iml" />
       <module fileurl="file://$PROJECT_DIR$/SplitWise/SplitWise.iml" filepath="$PROJECT_DIR$/SplitWise/SplitWise.iml" />
