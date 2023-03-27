@@ -1,4 +1,4 @@
-package org.lld.threadpool;
+package org.threadpool;
 
 public class CustomThreadPoolTest {
 

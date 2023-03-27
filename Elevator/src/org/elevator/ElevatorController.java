@@ -1,4 +1,4 @@
-package org.lld.elevator;
+package org.elevator;
 
 import java.util.PriorityQueue;
 

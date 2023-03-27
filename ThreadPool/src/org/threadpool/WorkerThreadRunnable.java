@@ -1,4 +1,4 @@
-package org.lld.threadpool;
+package org.threadpool;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.atomic.AtomicBoolean;

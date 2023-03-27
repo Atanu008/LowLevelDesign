@@ -1,4 +1,4 @@
-package org.lld.elevator;
+package org.elevator;
 
 public enum ElevatorStaus {
     MOVING,
