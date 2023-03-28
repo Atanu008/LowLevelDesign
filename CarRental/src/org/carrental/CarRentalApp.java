@@ -1,9 +1,13 @@
-package org.carrental.service;
+package org.carrental;
 
 
 import org.carrental.model.Location;
 import org.carrental.model.User;
 import org.carrental.model.VehicleReservation;
+import org.carrental.service.Bill;
+import org.carrental.service.PaymentService;
+import org.carrental.service.Store;
+import org.carrental.service.UserService;
 
 import java.util.*;
 

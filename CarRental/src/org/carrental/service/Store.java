@@ -34,12 +34,12 @@ public class Store {
         List<Vehicle> allAvailableVehicles = getAllAvailableCar();
         Vehicle reservedVehicle = null;
         VehicleReservation vehicleReservation = null;
-        if(allAvailableVehicles != null) {
+        if(allAvailableVehicles != null && !allAvailableVehicles.isEmpty()) {
             reservedVehicle = allAvailableVehicles.get(0);
             vehicleReservation = reserveVehicle(user, reservedVehicle, startDate, endDate, pickUpLocation, returnLocation);
         }
         else {
-            throw new NoAvailableVehicle("No Available Vehicle");
+            throw new NoAvailableVehicle("No Available Vehicle In Store");
         }
         return vehicleReservation;
     }
@@ -85,5 +85,13 @@ public class Store {
 
     public void addVehicleToStore(Vehicle vehicle){
         vehicleInventoryService.addVehicle(vehicle);
+    }
+
+    @Override
+    public String toString() {
+        return "Store{" +
+                "location=" + location +
+                ", storeId='" + storeId + '\'' +
+                '}';
     }
 }

@@ -1,5 +1,7 @@
 package org.carrental.model;
 
+import java.util.UUID;
+
 public class Vehicle {
     String vehicleID;
     int licenseNumber;
@@ -9,8 +11,8 @@ public class Vehicle {
     int hourlyRentalCost;
     int passengerCapacity;
 
-    public Vehicle(String vehicleID, int licenseNumber, VehicleType vehicleType, int dailyRentalCost, int hourlyRentalCost, int passengerCapacity) {
-        this.vehicleID = vehicleID;
+    public Vehicle(int licenseNumber, VehicleType vehicleType, int dailyRentalCost, int hourlyRentalCost, int passengerCapacity) {
+        this.vehicleID = UUID.randomUUID().toString();
         this.licenseNumber = licenseNumber;
         this.vehicleType = vehicleType;
         this.dailyRentalCost = dailyRentalCost;

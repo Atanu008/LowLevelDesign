@@ -38,4 +38,20 @@ public class VehicleReservation {
     // Below can be part of reservations
     // private List<Equipment> equipments; We can use Equipment(Eg : Navigation, ChildSeat, SkiRack) add Ons
     // private List<Service> services; Services(DriverService, RoadsideAssistance, WiFi) can be included
+
+
+    @Override
+    public String toString() {
+        return "VehicleReservation{" +
+                "reservationId='" + reservationId + '\'' +
+                ", vehicle=" + vehicle +
+                ", user=" + user +
+                ", reservationStatus=" + reservationStatus +
+                ", dateOfReservation=" + dateOfReservation +
+                ", satrtDate=" + satrtDate +
+                ", endDate=" + endDate +
+                ", pickupLocation='" + pickupLocation + '\'' +
+                ", returnLocation='" + returnLocation + '\'' +
+                '}';
+    }
 }

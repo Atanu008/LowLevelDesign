@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Structural/Decorator/Decorator.iml" filepath="$PROJECT_DIR$/DesignPatterns/Structural/Decorator/Decorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/SOLID/DependencyInversion/DependencyInversion.iml" filepath="$PROJECT_DIR$/DesignPatterns/SOLID/DependencyInversion/DependencyInversion.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" filepath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Elevator/Elevator.iml" filepath="$PROJECT_DIR$/Elevator/Elevator.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Creational/Factory/Factory.iml" filepath="$PROJECT_DIR$/DesignPatterns/Creational/Factory/Factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/Creational/FactoryMethod/FactoryMethod.iml" filepath="$PROJECT_DIR$/DesignPatterns/Creational/FactoryMethod/FactoryMethod.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/SOLID/InterfaceSegregation/InterfaceSegregation.iml" filepath="$PROJECT_DIR$/DesignPatterns/SOLID/InterfaceSegregation/InterfaceSegregation.iml" />
