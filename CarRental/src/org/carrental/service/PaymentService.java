@@ -12,7 +12,7 @@ public class PaymentService {
     Bill bill;
 
     public boolean makePayment() {
-        System.out.println("Making Payment of  "+bill.calculateAmount());
+        System.out.println("Rs.  "+bill.calculateAmount());
         return true;
     }
 

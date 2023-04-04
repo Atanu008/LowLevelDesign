@@ -4,6 +4,7 @@ import lombok.Getter;
 import org.carrental.exception.NoAvailableVehicle;
 import org.carrental.model.*;
 
+import java.time.LocalDateTime;
 import java.util.*;
 
 @Getter
@@ -30,7 +31,7 @@ public class Store {
         reservationMap = new HashMap<>();
     }
 
-    public VehicleReservation reserveVehicle(User user, Date startDate, Date endDate, String pickUpLocation, String returnLocation){
+    public VehicleReservation reserveVehicle(User user, LocalDateTime startDate, LocalDateTime endDate, String pickUpLocation, String returnLocation){
         List<Vehicle> allAvailableVehicles = getAllAvailableCar();
         Vehicle reservedVehicle = null;
         VehicleReservation vehicleReservation = null;
@@ -44,7 +45,7 @@ public class Store {
         return vehicleReservation;
     }
 
-    public VehicleReservation reserveVehicle(User user, Vehicle vehicle, Date startDate, Date endDate, String pickUpLocation, String returnLocation){
+    public VehicleReservation reserveVehicle(User user, Vehicle vehicle, LocalDateTime startDate, LocalDateTime endDate, String pickUpLocation, String returnLocation){
         VehicleReservation vehicleReservation = new VehicleReservation(vehicle, user, new Date(), startDate, endDate, pickUpLocation, returnLocation);
         vehicle.setVehicleStatus(VehicleStatus.RESERVED);
         userService.addUserReservation(user, vehicleReservation);
