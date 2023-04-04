@@ -25,6 +25,10 @@ public class FiveHundredWithdrawProcessor extends CashWithdrawProcessor{
             ATMInstance.deductFiveHundredNotes(ATMInstance.getNoOfFiveHundredNotes()); // Make 500 note count zero
         }
 
+        if(requiredNotes != 0) {
+            System.out.println("Dispatching "+ requiredNotes +" 500 notes");
+        }
+
         if(balance != 0){
             nextCashWithdrawProcessor.withdraw(ATMInstance, balance);
         }

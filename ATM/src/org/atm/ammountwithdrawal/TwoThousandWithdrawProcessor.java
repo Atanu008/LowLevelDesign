@@ -12,7 +12,6 @@ public class TwoThousandWithdrawProcessor extends CashWithdrawProcessor{
     @Override
     public void withdraw(ATM ATMInstance, int remainingAmount){
 
-        System.out.println("Remaining Amount in 2k "+ remainingAmount);
         int requiredNotes = remainingAmount / 2000;
         int balance = remainingAmount % 2000;
 
@@ -28,8 +27,11 @@ public class TwoThousandWithdrawProcessor extends CashWithdrawProcessor{
             ATMInstance.deductTwoThousandNotes(ATMInstance.getNoOfTwoThousandNotes()); // Make 2K note count zero
         }
 
+        if(requiredNotes != 0) {
+            System.out.println("Dispatching "+ requiredNotes +" 2K notes");
+        }
+
         if(balance != 0){
-            System.out.println("Balance In 2k " + balance);
             nextCashWithdrawProcessor.withdraw(ATMInstance, balance);
         }
     }
